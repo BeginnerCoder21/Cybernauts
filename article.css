@@ -1,0 +1,93 @@
+body{
+  margin:0;
+  width: 100%;
+}
+.nav-bar{
+  position: fixed;
+  height: 143px;
+  width: 100%;
+  z-index:1;
+}
+.nav-bar .container-fluid{
+  margin: 0 0 0 30px;
+}
+.nav-bar .navbar{
+  background-color: white;
+}
+.nav-bar .nav-item a{
+  font-family: Orbitron;
+  color: black;
+  font-size: 30px;
+}
+.nav-bar .d-flex a{
+  font-family: Poppins;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.nav-bar .d-flex a:active{
+  color: #FCA311;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: black;
+  text-decoration-thickness: 3px;
+}
+.class .card-header{
+  border-radius: 30px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+  background: #E5E5E5;
+}
+.container{
+  width: 100%;
+}
+.contact-box {
+  display: block;
+  border-radius: 14px;
+background-color: #E5E5E5;
+width: 260px;
+padding: 20px;
+color: black;
+margin-right: 40px;
+}
+.contact-box.center-version > a {
+display: block;
+color: black;
+text-decoration: none;
+background-color: #E5E5E5;
+padding: 20px;
+text-align: center;
+}
+.contact-box.center-version > a img {
+width: 120px;
+height: 120px;
+margin-top: 10px;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+.contact-box.center-version address {
+margin-bottom: 0;
+text-align: justify;
+}
+.contact-box .contact-box-footer {
+text-align: center;
+background-color: #E5E5E5;
+padding: 15px 20px;
+}
+.contact-box-footer .btn-warning{
+  font-family: Poppins;
+  color: white;
+  font-weight: 500;
+  background-color: #FCA311;
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+}
+.contact-box-footer .btn-warning:hover{
+  background-color: #ffc107;
+  font-family: Poppins;
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+}
